@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/Site_logo.png">
+    <meta name="description" content="SyedRiyaz's Portfolio - A showcase of my work as a 3D artist and Unreal Engine developer.">
+    <title>Portfolio - SyedRiyaz</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Jscritps.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div class="loader"></div>
+    <header class="hero" id="home">
+        <h1 class="main-name">SyedRiyaz N</h1>
+        <h2 class="designation-rotate">
+            I am <span class="changing-text">3D Artist</span>
+        </h2>
+    </header>
+    <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home" title="Home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#about-me" title="About Me"><i class="fas fa-user"></i></a></li>
+            <li><a href="#skills" title="Skills"><i class="fas fa-lightbulb"></i></a></li>
+            <li><a href="#portfolio" title="Portfolio"><i class="fas fa-briefcase"></i></a></li>
+            <li><a href="#contact" title="Contact"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+    <section id="about-me" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-info">
+                <div class="profile-pic"></div>
+                <div class="personal-info">
+                    <p><strong>Name:</strong> SyedRiyaz N</p>
+                    <p><strong>Email:</strong> riyaz.19g102@gmail.com</p>
+                    <p><strong>Date of Birth:</strong> 04-08-2001</p>
+                    <p><strong>Location:</strong> Chennai</p>
+                    <p><strong>Phone:</strong> 9841988422</p>
+                    <a href="assets/creativeresume.pdf" download="SyedRiyaz_Resume.pdf" class="download-button">Download Resume</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/syed-riyaz-583b33233/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://discord.gg/K969BTD" target="_blank" aria-label="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://www.artstation.com/riyazn8" target="_blank" aria-label="ArtStation">
+                        <i class="fab fa-artstation"></i>
+                    </a>
+                    <a href="https://www.behance.net/syedriyaz4" target="_blank" aria-label="Behance">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="https://www.instagram.com/mr_riyaz04/" target="_blank" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>I’m SyedRiyaz, a dedicated 3D artist and Unreal Engine developer with over two years of experience in creating high-quality 3D models, animations, and interactive environments. I specialize in 3D modeling, product visualization, and game development, using industry-standard tools like Blender for animations and Unreal Engine for environment design and gameplay programming.</p>
+                <p>My expertise includes working with Unreal Blueprints (visual scripting) to implement game mechanics, interactions, and AI behavior. I have developed 2-3 game projects, leveraging my understanding of both artistic design and technical development to create engaging experiences. From building dynamic environments to designing smooth animations in Blender, I bring a well-rounded approach to each project.</p>
+                <p>As an active content creator, I also share tutorials on 3D modeling and Unreal Engine, helping fellow creators enhance their technical and creative skills. I am always eager to learn new things, diving into areas where I can expand my knowledge and tackle challenges I haven’t encountered before.</p>
+                <p>Passionate about pushing the boundaries of digital art and game design, I am excited to take on projects that allow me to grow both as an artist and a developer. Whether it’s a detailed 3D asset, a complex Unreal Engine blueprint, or a fully animated game character, I am committed to delivering professional, polished results that bring your vision to life.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+</section>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill" data-progress="65"><img src="images/Unreal engine.png" alt="Skill 1"><div class="progress-bar-container"><div class="progress-bar"></div></div></div>
+        <div class="skill" data-progress="90"><img src="images/blender3D.png" alt="Skill 2"><div class="progress-bar-container"><div class="progress-bar"></div></div></div>
+        <div class="skill" data-progress="95"><img src="images/photoshop.png" alt="Skill 3"><div class="progress-bar-container"><div class="progress-bar"></div></div></div>
+        <div class="skill" data-progress="75"><img src="images/Substance.png" alt="Skill 4"><div class="progress-bar-container"><div class="progress-bar"></div></div></div>
+    </div>
+</section>
+
+<!-- Lightbox Container -->
+<div id="lightbox">
+    <span id="close-lightbox">&times;</span>
+    <img id="lightbox-image" src="" alt="Enlarged Image">
+</div>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="filter-buttons">
+        <button data-filter="all" class="active">All</button>
+        <button data-filter="blender">Blender 3D</button>
+        <button data-filter="unreal">Unreal Engine</button>
+        <button data-filter="design">Graphic Design</button>
+        <button data-filter="sketchs">Sketches</button>
+    </div>    
+    <!-- Portfolio Section -->
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <img src="images/blender_works/katna_R2.png" alt="Blender Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/car_Render 5.png" alt="Blender Work 2" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/car_Render 6.png" alt="Blender Work 3" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/buds_R2.png" alt="Blender Work 8" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/car_Render 6 .png" alt="Blender Work 4" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/render.png" alt="Blender Work 5" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/buds_R3.png" alt="Blender Work 8" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/Watch_render 2.png" alt="Blender Work 6" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/Watch_render 3.png" alt="Blender Work 7" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/Watch_render 4.png" alt="Blender Work 8" class="portfolio-image">
+        </div>
+        <div class="portfolio-item blender">
+            <img src="images/blender_works/Watch_render 7.png" alt="Blender Work 8" class="portfolio-image">
+        </div>
+        <div class="portfolio-item unreal">
+            <img src="images/UE_Works/WP_1.png" alt="Unreal Engine Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item unreal">
+            <img src="images/UE_Works/WP_2.png" alt="Unreal Engine Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item unreal">
+            <img src="images/UE_Works/firstproject.png" alt="Unreal Engine Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_2577.JPG" alt="Sketches" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/resume png.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/diwali poster.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/BROCHURES 1 PG 2.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/BROCHURES 1.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/BROUCHER 2.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/BROUCHER 2 PG 2.png" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item design">
+            <img src="images/GD/IMG_1975.PNG" alt="Graphic Design Work 1" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_0097.jpg" alt="Sketches01" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_0293.jpg" alt="Sketches02" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_0411.jpg" alt="Sketches03" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_0412.jpg" alt="Sketches04" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_0436.jpg" alt="Sketches05" class="portfolio-image">
+        </div>
+        <div class="portfolio-item sketchs">
+            <img src="images/Sketches/IMG_1430.jpg" alt="Sketches06" class="portfolio-image">
+        </div>
+    </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <form action="https://formspree.io/YOUR_EMAIL" method="POST">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>    
+    <footer>
+        <p>&copy; 2024 SyedRiyaz. All rights reserved.</p>
+        <p>This webpage is developed by myself</p>
+    </footer>
+    <button id="back-to-top" title="Go to top">↑</button>    
+</body>
+</html>
